@@ -1,1 +1,18 @@
-https://docs.google.com/document/d/1tK6P7QnQubnJqR1enE-HSuJnYRh2l_0545BD4xUVoKM/edit?usp=sharing
+To contribute to this document, please make a heading with your name and include your notes beneath. 
+
+Note that there are several versions of this exam that Google is circulating, so some advice may not apply to your particular version of the exam. 
+
+After you take the exam, please contribute to this document so others can benefit from your experience. 
+
+
+
+Spencer Goff
+- difficult exam
+- lots of questions involving networking fundamentals-- CIDR notation, IP address ranges, etc. 
+- several questions about deployment best practices for prod/dev environments, know some about Deployment Manager
+- lots of questions about migrating object-based storage and VMs from on-prem and AWS to GCP-- know the basic use of gsutil and Storage Transfer Service
+- I used Coursera to prepare (first 5 courses of “Architecting with Google Cloud Platform are recommended, I only completed the first 3) since that was the only resource available in August 2018, but use the Linux Academy course if it is out-- Coursera sucks!
+- I went through the exam outline, which lists everything you know for the exam. For each item I went to the official documentation and tried out the gcloud commands if available. This is very tedious, but I felt it was helpful. I completed about ¾ of the objectives. 
+- I found these practice exams on Udemy very helpful, although the questions are much simpler than the actual exam questions. 
+- It would be helpful to do some non-course projects/labs, if you have time, just to familiarize yourself with the console and command line more
+- Others who took the exam before me said they had a lot of questions about IAM, service accounts, and gcloud commands, but I only had a handful of these. 
