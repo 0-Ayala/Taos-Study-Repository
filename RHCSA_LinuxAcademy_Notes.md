@@ -1,4 +1,21 @@
 # [ Red Hat Certified Systems Administrator - RHCSA (EX200) Exam Prep ]
+##  [ Use Input/Output Redirection ]
+     Redirection '>', '<' takes as args stdout.
+     Redirection '2>', '2>>' takes as args stderror.
+     Redirection '>> x' appends to file x if it exists, else creates said file and appends to it.
+     Redirection '&>', '&>>' takes BOTH stdout and stderror as args.
+     Redirection "|" means piping, which takes stdout as input.
+     "head" and "tail" puts to stdout the first or last 10 messages in a given file (this can be adjusted with other flags)
+     
+##  [ Use grep and Regular Expressions to Analyze Text ]
+     "grep -i x" means search for "x" ignoring case
+     "grep -v x" means search for everything NOT "x"
+     "grep ^x" means search for all lines starting with "x"
+     "grep x$" means search for all lines that end with "x"
+     "grep [ab]x" means search for everything with "ax" or "bx"
+     "grep [^ab]" means search for everything BUT what is "ab"
+     "grep 'a' | grep 'b' | grep 'c' | ..." means grep iteratively with filters of 'a', then 'b', then 'c' and so on.
+     
 ##  [ Archive, Compress, Unpack and Uncompress Files Using tar, star, gzip and bzip2 ]
      tar is for archiving purposes, but does not actually handle compression
      "gzip x" and "gunzip x" will compress / uncompress file or archive x
