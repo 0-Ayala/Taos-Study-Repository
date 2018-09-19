@@ -1,10 +1,6 @@
 #!/usr/bin/env make -f
 
-<<<<<<< Updated upstream
 # OPENSOURCE FORK FROM:
-=======
-# THIS VERSION FORKED FROM:
->>>>>>> Stashed changes
 # BASH Repo Template
 # ..................................
 # Copyright (c) 2017-2018, Kendrick Walls
@@ -13,11 +9,7 @@
 # you may not use this file except in compliance with the License.
 # You may obtain a copy of the License at
 # ..........................................
-<<<<<<< Updated upstream
 # http://www.github.com/kendrick-walls-work/bash-repo/LICENSE.md
-=======
-# http://www.github.com/reactive-firewall/bash-repo/LICENSE.md
->>>>>>> Stashed changes
 # ..........................................
 # Unless required by applicable law or agreed to in writing, software
 # distributed under the License is distributed on an "AS IS" BASIS,
@@ -25,15 +17,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-<<<<<<< Updated upstream
-#########################################
-# EDIT 2018/09/19 version - TAOS
-#########################################
-=======
 ###################################
 # Version 2018/09/19 TAOS EDIT
 ###################################
->>>>>>> Stashed changes
 
 ifeq "$(ECHO)" ""
 	ECHO=echo
@@ -81,15 +67,6 @@ build:
 init:
 	$(QUIET)$(ECHO) "$@: Done."
 
-<<<<<<< Updated upstream
-install: must_be_root ./bin/speed_test.bash /usr/local/bin/
-	$(QUITE)$(WAIT)
-	$(QUIET)$(ECHO) "$@: No Need to Install."
-
-uninstall:
-	$(QUITE)$(WAIT)
-	$(QUIET)$(ECHO) "$@: Nothing to UnInstall"
-=======
 install: must_be_root /usr/local/bin/
 	$(QUITE)$(WAIT)
 	$(QUIET)$(ECHO) "$@: Nothing Done."
@@ -97,7 +74,6 @@ install: must_be_root /usr/local/bin/
 uninstall:
 	$(QUITE)$(WAIT)
 	$(QUIET)$(ECHO) "$@: Nothing Done."
->>>>>>> Stashed changes
 
 purge: clean uninstall
 	$(QUIET)$(ECHO) "$@: Done."
