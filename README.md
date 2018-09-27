@@ -1,2 +1,2 @@
 # Taos-Study-Repository
-Here you are fellow bootcamers! Upload your notes here.
+Here you are fellow bootcampers! Upload your notes here.
