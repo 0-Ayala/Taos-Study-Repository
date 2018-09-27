@@ -1,0 +1,36 @@
+EXAMPLE:
+
+#### --BEGIN-- ####
+# Email: or Slack:
+	user@taos.com
+# Passed/Failed:
+	Passed
+# Notes:
+	Multiple choice, but dont depend on being able to rule out many options. All choices are made to look very similar to correct answers. Questions are designed to test your knowledge of how services work together, one question may involve IAM, KMS, Beanstalk, and Lambda in its scope. 
+
+# Focus:
+	IAM, Developer Tools (cloud9 not covered on my test), ECS, EKS, Beanstalk, Lambda, S3, DynamoDB, Aurora, KMS, Cognito ELB, SQS, SNS
+
+# Study Materials:
+# Linux Academy: AWS Certified Developer - Associate Level (2018)
+#	Pros:
+		Course provides most of whats needed to take the exam, labs helped familarize me with the processes for using AWS, Sigma Scripts were comprehensive, could almost replace videos
+
+#	Cons:
+		Did not cover API calls enough IMO, studying api calls in the documentation would have helped, instructer was a slow speaker, tended to beat certain basic concepts to death. 
+		
+# AWS: Whitepapers
+#	Pros: 
+		A wealth of conceptual knowledge that helped reinforce core concepts and explains the why of best practices
+
+#	Cons:
+		Very Dry, Lots of material to read. Probably best to skim papers
+
+# https://docs.aws.amazon.com/
+#	Pros: 
+		Every API call can be found here
+
+#	Cons:
+		Massive library of documentation, can easily get sidetracked
+
+#### --END-- ####
